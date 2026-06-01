@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Trip</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body class="bg-[url('./Images/icons/Banner/bg2.jpg')] bg-contain bg-no-repeat">
+
+    <nav id="navbar" class="max-w-7xl mx-auto px-4 h-20">
+        <div id="MainNavBarDiv" class="flex  items-center justify-around w-full h-8 mb-5 ">
+
+
+            <div id="mmtlogo" class="flex flex-row  pb-5  mt-10">
+
+                <img class="m-auto h-10" src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png">
+
+
+            </div>
+
+            <div class="flex justify-around *:m-auto mt-5 max-w-3xl">
+                <div class="flex justify-center items-center">
+                    <div>
+                        <img class="w-7 m-auto h-7 mr-3 mx-auto " src="./Images/icons/propery.png">
+                    </div>
+                </div>
+                <div class="text-white">
+                    <span class="font-semibold text-[14px]">List Your Property</span><br><span
+                        class="font-thin text-xs">Grow Your
+                        business!</span>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-5">
+                <div>
+                    <img class="m-auto h-8 mx-auto mr-3 "
+                        src="	https://go-assets.ibcdn.com/u/MMT/images/1769594381486-myBizLogoWhiteBig.png">
+                </div>
+                <div class="text-white font-semibold">
+                    <span class="font-semibold">Introducing myBiz</span><br><span class="font-thin text-xs">Business
+                        Travel Solution</span>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="flex justify-center items-center mt-5">
+                <div>
+                    <img class=" m-auto h-10 mx-auto mr-3" src="Images/icons/trip.png">
+
+                </div>
+
+
+                <div class="text-white font-semibold">
+
+
+                    <span class="font-semibold">My Trips</span><br><span class="font-thin text-xs">Manage Your
+                        Booking</span>
+                </div>
+            </div>
+
+
+
+            <div class="flex justify-center items-center mt-5">
+
+                <div>
+                    <img class="w-10 m-auto h-10 mx-auto mr-3" src="Images/icons/heart.png">
+
+                </div>
+
+
+                <div class="text-white font-semibold">
+                    <span class="font-semibold">Wish List</span><br><span class="font-thin text-xs">Save
+                        Favourites</span>
+                </div>
+            </div>
+
+
+            <div class="text-white font-semibold mt-7">
+                <button
+                    class="rounded-md bg-linear-to-r from-cyan-500 to-blue-500 h-12 w-50 text-white font-bold text-[10px]">Login
+                    or Create Account</button>
+            </div>
+
+            <div class="text-white font-semibold mt-7">
+
+                <button class="rounded-md bg-white/15 h-12 w-40 text-white font-bold text-[10px]">
+                    <div class="flex justify-around items-center ">
+                        <div>
+                            <img class="h-8" src="./Images/icons/India.png">
+                        </div>
+                        <div>
+                            INR | English
+                            <span class=" text-lg font-bold">&nbsp;&nbsp;&#709;&nbsp;</span>
+                        </div>
+                    </div>
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+
+
+
+
+    </nav>
+
+
+    <section class="h-[220px]">
+
+    </section>
+
+
+
+
+    <!-- Bookmark tabs section-->
+    <section class="relative z-20 -mt-50 w-11/12 max-w-[1100px] mx-auto bg-white rounded-t-md shadow-xl">
+        <div class="flex justify-between items-center px-8 py-4 overflow-x-auto gap-6">
+
+            <div class="border-b-4 border-sky-500">
+
+                <img src="./Images/icons/Booking Tab/Plane.png" class="h-12">
+                <P class="text-sky-500 font-bold text-sm">Flights</P>
+
+
+            </div>
+
+            <div>
+
+                <img src="./Images/icons/Booking Tab/./Hotel.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Hotels</p>
+            </div>
+
+            <div class="flex flex-col *:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/House.png" class="h-10 w-10">
+                <p class="text-center text-sm text-gray-600">Villas & Homestays</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/holiday.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Holiday Packages</p>
+            </div>
+
+            <div class="w-30 *:m-auto">
+                <img src="./Images/icons/Booking Tab/train.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Trains</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/Bus.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Buses</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/cab.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Cabs</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/Holiday.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Tours & Attractions</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/./Visa.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Visa</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/Cruise.png" class="h-10 mx-auto">
+                <p class="text-center text-sm text-gray-600"> Cruise</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/money.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Forex card & Currency</p>
+            </div>
+
+            <div class="*:m-auto w-30">
+                <img src="./Images/icons/Booking Tab/insurance.png" class="h-10">
+                <p class="text-center text-sm text-gray-600">Travel Insurance</p>
+            </div>
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- search section -->
+    <section class="relative z-10 w-[1200px] mx-auto bg-white rounded-md shadow-md px-4 pb-8 pt-2 -mt-20">
+
+
+        <div class="flex flex-col w-full" id="mainSearchDiv">
+
+
+            <div id="searchdiv" class="grid">
+
+                <div id="adInSearchSearchDiv" class="flex flex-col justify-center w-full mt-15">
+                    <div class="flex justify-center mt-6">
+
+                        <div
+                            class="flex items-center justify-between w-[578px] h-[50px] px-4 rounded-xl bg-[linear-gradient(0deg,_rgba(34,195,141,0.34)_0%,_rgba(215,223,117,0.61)_38%,_rgba(45,253,139,0.4)_100%)]">
+
+                            <img class="h-12"
+                                src="https://imgak.mmtcdn.com/flights/assets/media/dt/common/spa/spaBannerLeftIcon.webp">
+
+                            <img class="h-6 object-contain "
+                                src="https://imgak.mmtcdn.com/flights/assets/media/dt/common/spa/myraAI.webp?v=1">
+
+                            <span class="text-[16px] font-medium whitespace-nowrap">
+                                Your AI Assistant for Flights & Stays
+                            </span>
+
+                            <img class="w-5 h-5 object-contain"
+                                src="https://imgak.mmtcdn.com/flights/assets/media/dt/rta_assets/arrow_right.png">
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+            <div>
+                <div class="flex justify-between m-2" id="radioAndPara">
+                    <div id="radiorow">
+
+                        <span class="bg-blue-50 rounded-2xl p-1"><input type="radio" id="oneway" name="radio"><label
+                                for="oneway" class="mr-5  font-bold"> One way</label></span>
+                        <input type="radio" id="roundtrip" name="radio"><label for="roundtrip"
+                            class="mr-5 text-sm font-light"> Round Trip</label>
+                        <input type="radio" id="multycity" name="radio"><label for="Multycity"
+                            class="mr-5 text-sm font-light"> Multy City</label>
+
+
+
+
+
+                    </div>
+                    <div id="paragraph">
+                        <p class="align-left">Book International and Domestic Flights</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div id="FromTO"
+                    class="relative grid grid-cols-5 grid-cols-[1.2fr_1.2fr_1fr_1fr_1.3fr] divide-x divide-gray-300 items-center  m-4 border border-gray-300 rounded-xl *:p-4 ">
+
+                    <div class="p-4">
+                        <p class="text-sm text-gray-600">From</p>
+                        <h1 class="text-4xl font-bold">Delhi</h1>
+                        <p class="mt-1 text-gray-600">DEL,Delhi Airport India</p>
+
+
+
+                    </div>
+                    <div class="absolute z-20 top-[35%] left-[19%] rounded-full bg-white shadow-2xl text-sky-500 h-12">
+                        <span class="text-center">⇌</span>
+                    </div>
+
+                    <div class="p-2">
+                        <p class="text-sm text-gray-600">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To</p>
+                        <h1 class="text-4xl font-bold text-center"> Bengaluru</h1>
+                        <p class="mt-1 text-gray-600 text-center">BLR, Bengaluru Airport</p>
+
+
+
+                    </div>
+
+                    <div class="p-2">
+                        <p class="text-sm text-gray-600">Departure <span
+                                class="text-sky-500 text-lg font-bold">&nbsp;&#709;</span></p>
+                        <h1 class="text-4xl font-bold">25
+                            <span class="text-lg font-medium text-gray-600">May</span>
+                        </h1>
+
+                        <p class="mt-1">DEL,Delhi Airport India</p>
+
+
+
+                    </div>
+
+                    <div class="p-4">
+                        <p class="text-sm text-gray-600">Return <span
+                                class="text-sky-500 text-lg font-bold">&nbsp;&#709;</span></p>
+
+                        <p class="mt-1 text-[14px] font-bold p-2 text-gray-600">Tap to add a return date for bigger
+                            discounts</p>
+
+
+
+                    </div>
+
+                    <div class="p-4">
+                        <p class="text-sm text-gray-600">Travellers & Class <span
+                                class="text-sky-500 text-lg font-bold">&nbsp;&#709;</span></p>
+                        <h1 class="text-4xl font-bold">1
+                            <span class="text-lg font-medium">Traveller</span>
+                        </h1>
+                        <p class="mt-1 text-gray-600">Economy/Premium Economy</p>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="flex  justify-between items-center">
+                    <div class="max-w-3xl">
+                        <p class="font-bold ">SPECIAL</p>
+                        <p class="font-bold">FARES</p>
+
+                    </div>
+
+                    <div
+                        class="flex justify-between items-center gap-4 mx-auto *:rounded-xl *:shadow-md *:border  *:p-4">
+
+                        <div class="border border-blue-400 bg-blue-50">
+                            <P class="text-sky-500 font-bold text-xs">Regular</P>
+                            <p class="text-gray-600 font-light text-xs">Regular Fares</p>
+                        </div>
+
+                        <div class="border-gray-300">
+                            <p class="font-bold text-xs">Student</p>
+                            <p class="text-gray-600 text-xs">Extra discounts/baggage</p>
+                        </div>
+
+                        <div class="border-gray-300">
+                            <p class="font-bold text-xs">Armed Forces</p>
+                            <p class="text-gray-600 text-xs">Up to ₹ 600 off</p>
+                        </div>
+
+                        <div class="border-gray-300">
+                            <p class="font-bold text-xs">Have a GST number ?</p>
+                            <p class="text-gray-600 text-xs">Upto 10% Extra Savings !</p>
+                        </div class="border-gray-300">
+
+                        <div class="border-gray-300">
+                            <p class="font-bold text-xs">Senior Citizen</p>
+                            <p class="text-gray-600 text-xs">Up to ₹ 600 off</p>
+                        </div class="border-gray-300">
+                        <div class="border-gray-300">
+                            <p class="font-bold text-xs">Doctors and Nurses</p>
+                            <p class="text-gray-600 text-xs">Up to ₹ 600 off</p>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div
+                    class="flex w-full justify-start align-start gap-4 *:rounded-xl *:shadow-md *:border *:p-4 *:my-2 ">
+                    <div
+                        class="flex justify-between items-center h-15 *:p-2 border-gray-300 hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+
+
+                        <img src="	https://imgak.mmtcdn.com/flights/assets/media/dt/common/fis_entry_point_2.webp"
+                            class="h-10">
+
+                        <p class="text-sm">Fight Tracker</p>
+                    </div>
+                    <div
+                        class="flex justify-between items-center h-15 *:p-2 border-gray-300 hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+
+
+                        <img src="https://imgak.mmtcdn.com/flights/assets/media/dt/common/bag_dt.webp" class="h-10">
+
+                        <p class="text-sm">Shop Duty Free</p>
+                    </div>
+                </div>
+
+
+
+                <div class="absolute -bottom-6 left-1/2 -translate-x-1/2">
+                    <button
+                        class="rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 h-14 w-60 text-white font-bold text-xl shadow-xl">SEARCH</button>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <section class="py-8 ">
+        <div class="flex flex-col justify-center items-center">
+            <div>
+                <p class="text-white">&dArr; Explore More &dArr;</p>
+            </div>
+            <div
+                class="flex divide-x divide-gray-300 rounded-full bg-white m-auto *:m-auto *:px-4 w-3/4 h-12 shadow-lg">
+                <div class="flex items-center">
+                    <div>
+                        <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_where2go.png">
+                    </div>
+                    <div>
+                        <p class="font-light">Where2Go</p>
+
+
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div>
+                        <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_howtogo.png">
+                    </div>
+                    <div>
+                        <p class="font-light">How2Go</p>
+                        <p class="text-gray-600 text-xs">Find routes to anywhere</p>
+
+
+                    </div>
+                </div>
+
+
+                <div class="flex items-center">
+                    <div>
+                        <img src="	https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_travelcard.png">
+                    </div>
+                    <div>
+                        <p class="font-bold text-xs">MakeMyTrip ICICI Credit Card</p>
+                        <p class="text-gray-600 text-xs">
+                        <p class="text-gray-600 text-xs">Find routes to anywhere</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div>
+                        <img src="https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_mice.png">
+                    </div>
+                    <div>
+                        <p>MICE</p>
+                        <p class="text-gray-600 text-xs">
+                        <p class="text-gray-600 text-xs">Find routes to anywhere</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div>
+                        <img src="	https://promos.makemytrip.com/appfest/1x/ic_home_tertiary_giftcards.png">
+                    </div>
+                    <div>
+                        <p>Gift Cards</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Offers and grid section -->
+
+    <section
+        class="relative flex flex-col justify-center mt-5 max-w-7xl w-full mx-auto px-4 rounded-xl shadow-2xl p-6 bg-white space-x-4  justify-between ">
+        <div class="flex justify-start p-4">
+            <div class="flex justify-start items-center font-bold text-2xl">
+                <span class="text-3xl">Offers</span>
+            </div>
+            <div class="flex justify-between w-full">
+                <div class="flex space-x-4 border-b-1 mx-6 border-gray-300 *:px-4">
+                    <div class="text-sky-500 font-bold border-b-4 text-sm">All Offers</div>
+                    <div class=" font-light text-sm ">Bank Offers</div>
+                    <div class="font-light text-sm">Flights</div>
+                    <div class="font-light text-sm">Holidays</div>
+                    <div class="font-light text-sm">Trains</div>
+                    <div class="font-light text-sm">Cabs</div>
+                    <div class="font-light text-sm">Bus</div>
+                    <div class="font-light text-sm">Forex</div>
+                    <div class="font-bold text-sm -pb-4">MORE <span class="text-lg font-bold">&nbsp;&#709;</span></div>
+
+                </div>
+                <div>
+                    <p class="font-bold text-sky-500 text-xl mr-20">View All <span
+                            class="text-3xl font-bold">&#8594;</span>
+
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <button
+            class="rounded-l-full shadow-xl font-bold flex justify-center items-center text-2xl text-sky-500  z-20 bg-white h-12 w-12 translate-x-287 -translate-y-15 border-gray-300">
+            &#8249;</button>
+        <button
+            class="rounded-r-full shadow-xl font-bold flex justify-center items-center text-2xl text-sky-500  z-20 bg-white h-12 w-12 translate-x-300 -translate-y-27">
+            &#8250;</button>
+
+        <div class="grid grid-cols-3 gap-2 *:w-[400px] *:h-[200px] pb-10">
+
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-dls-25052024.jpg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">FOR THE PERFECT STAYS IN THE HILLS:</p>
+
+                            <P class="text-gray-600 text-sm pt-4">
+                                Book DLS Hotels @ Up to 40% OFF*
+                            </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/appfest/2x//Indigo-Desktop-12May.jpg.jpeg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">LIVE NOW: Great Connections Fest by IndiGo</p>
+
+                            <P class="text-gray-600 text-sm ">
+                                With Connecting Flights Starting @ ₹3,999* & More!
+                            </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/images//Desktop-OsCab-Routes-12Sep.jpg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">Summer-special: Fixed Fares on Outstation Cabs.</p>
+
+                            <P class="text-gray-600 text-sm pt-4">
+                                Also, enjoy up to ₹1,000 OFF* on your booking. </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/images//Desktop-Vacation-ka-Occasion-23Apr.jpg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">For Your Summer Trips: Get Up to 50% OFF*</p>
+
+                            <P class="text-gray-600 text-sm pt-4">
+                                on Flights, Stays, Packages & More.
+                            </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/appfest/2x//116X116-oyo-15052026.jpg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">Too Good to Miss</p>
+
+                            <P class="text-gray-600 text-sm pt-4">
+                                Up to 60% OFF* on Stays at Oyo Hotels on select properties! </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="bg-white rounded-xl shadow-lg hover:bg-blue-50 hover:shadow-md hover:border-blue-300">
+                <div class="flex-col">
+
+                    <div class="flex justify-between *:p-2 *m-auto">
+                        <div class="w-[250px]">
+                            <img src="https://promos.makemytrip.com/notification/xhdpi//116X116-Lalit-24062022.jpg?im=Resize=(134,134)"
+                                class="rounded-md  h-[134px] w-[134px]">
+
+                        </div>
+                        <div>
+
+                            <div class="flex justify-between text-xs text-gray-600">
+                                <p class="font-bold">INTL FLIGHTS</p>
+                                <p>T&C Apply</p>
+
+                            </div>
+
+                            <p class="font-bold text-xl">Enjoy Up to 40% OFF* on Stays </p>
+
+                            <P class="text-gray-600 text-sm pt-4">
+                                at the LaLiT and enjoy Luxury at it's Best </P>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex justify-end items-center p-4">
+                        <p class="font-bold text-sky-500">BOOK NOW</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
